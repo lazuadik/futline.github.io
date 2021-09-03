@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+  
+
+body {
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.top-wrapper{
+    padding:180px 0 100px 0;
+    background-image: url(https://static.wixstatic.com/media/53aaec_651e0c583ef04f5581f72598c3c8a877.jpg);
+    background-size: cover;
+    background-blend-mode:exclusion;
+    color:white;
+    text-align: center;
+}
+.top-wrapper h1{
+    font-size:45px;
+    letter-spacing:5px;
+    margin-bottom:10px;
+    opacity:1;
+}
+.top-wrapper h2{
+    font-size:30px;
+    letter-spacing:5px;
+    margin-bottom:10px;
+    opacity:1;
+}
+.top-wrapper p{ 
+    font-size:20px;
+    opacity:0.9;
+}
+header{
+    height:65px;
+    width:100%;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+  width: 180px;
+}
+.header-left{ 
+    float:left;
+}
+.header-right{
+    float:right;
+    margin-top: 0px;
+    background-color:rgba(126, 126, 126, 0.945);
+}
+.login{
+    color:white;
+    display: block;
+    line-height:65px;
+    padding: 0 25px;
+}
+.header-right:hover{
+    background-color:rgba(48, 56, 68, 0.5);
+}
+.btn-wrapper{
+    padding-top:10px;
+}
+.btn{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+.fa {
+    margin-right: 5px;
+}
+.signup{
+    background-color: #239b76;
+    color:white;
+}
+.facebook{
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.twitter{
+    background-color: #55acee;
+}
+.btn:hover{
+    opacity:1;
+}
+.heading h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top:60px;
+    padding-bottom:30px;
+}
+.content-wrapper{
+    text-align: center;
+    padding-bottom:80px;
+    background-color:#f7f7f7;
+}
+.content{
+    float:left;
+    width:33.3%;
+}
+.content-icon{
+    position:relative;
+}
+.content-icon p{
+    position:absolute;
+    top: 55px;
+    width:100%;
+    color:white;
+    font-size:30px;
+}
+
+.clear {
+    clear: left;
+}
+
+footer{
+    background-color:rgb(177, 177, 177);
+    height: 200px;
+    padding:40px;
+}
+.footer-left{
+    float:left;
+    width:50%;
+}
+.footer-list{
+    float:right;
+}
+.footer-list li{
+    padding-bottom:20px;
+}
